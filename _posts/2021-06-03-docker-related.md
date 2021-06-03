@@ -5,7 +5,7 @@ excerpt: "Container 생성 및 Docker 사용을 알아보자."
 categories:
   - Study & Research
 tags:
-  - [Study & Research, Ph.D., ME]
+  - [ubuntu, docker, Ph.D., ME]
 
 toc: true
 toc_sticky: true
