@@ -15,9 +15,14 @@ last_modified_at: 2021-06-03
 ---
 
 
+
+
+
 # 블록처리 테스트
 test_line1
+
     test_line2
+
 test_line3
 
-![GLAD 로고]("/asset/images/Logo_GLAD.png")
+![GLAD 로고]("D:/Dongwhanlee.github.io/assets/images")
