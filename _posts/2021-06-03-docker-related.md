@@ -14,8 +14,6 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-# __Docker 환경설정__
-
 ### __사용할 도커 이미지 확인__
     $ docker images
 ![Docker images](/assets/images/2021-06-03-docker-related/docker_images.PNG)
