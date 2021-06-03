@@ -5,7 +5,7 @@ excerpt: "참고 사이트 및 자료"
 categories:
   - Reference
 tags:
-  - [markdown, Github, blog]
+  - [reference, blog]
 
 toc: true
 toc_sticky: true
