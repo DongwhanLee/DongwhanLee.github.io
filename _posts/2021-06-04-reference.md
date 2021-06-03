@@ -5,7 +5,7 @@ excerpt: "참고 사이트 및 자료"
 categories:
   - Reference
 tags:
-  - [reference, blog]
+  - [reference, blog, study]
 
 toc: true
 toc_sticky: true
@@ -15,6 +15,7 @@ last_modified_at: 2021-06-04
 ---
 
 ---
+
 ### __`블로그 개설 및 프로그래밍`__
 
 ["식빵맘" - 평생 공부 블로그 : Today I Learned](https://ansohxxn.github.io/)  
