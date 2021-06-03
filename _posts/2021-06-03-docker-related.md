@@ -26,12 +26,12 @@ last_modified_at: 2021-06-03
 
 * [run] : 컨테이너를 생성하고 시작하는 명령어(Create와 Start를 모두 실행)
 * [-d] : 컨테이너를 백그라운드에서 실행하는 옵션
-* [-i, t] : 컨테이너와 상호작용
+* [-i], [-t] : 컨테이너와 상호작용
 * [--name] : 컨테이너명
 * [-v] : 공유할 디렉토리 설정 (서버 폴더:컨테이너 폴더)
 * [-p] : 공유할 포트 설정 (서버 포트:컨테이너 포트)
-* [--gpus] : gpu 사용 개수 or 사용 gpu의 id입력(4 or 0,1,2,3)
-* 5ffed6c83695 : container 제작에 사용될 이미지 ID
+* [--gpus] : GPU 사용 개수 (GPU 8개 장착인 경우, 0~7 or 8(=all))
+* 5ffed6c83695 : 컨테이너 제작에 사용될 이미지 ID
 
 ### __생성 컨테이너 확인__
     $ docker ps # 실행 중 컨테이너 목록 출력 
@@ -43,7 +43,7 @@ last_modified_at: 2021-06-03
 
 ### __Docker 환경에서 Jupyter Notebook 실행__
     $ jupyter notebook --ip="허용할 ip" --port="사용할 컨테이너의 포트" --allow-root
-    ex) jupyter notebook --ip=0.0.0.0 --port=9230 --allow-root
+    ex) jupyter notebook --ip=0.0.0.0 --port=9230 --allow-root  
 * [--ip] : 모든 ip 허용 시, 0.0.0.0
 * [--port] : 사용할 컨테이너의 포트
 
