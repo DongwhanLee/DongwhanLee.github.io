@@ -14,10 +14,6 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-
-
-
-
 # 블록처리 테스트
 test_line1
 
@@ -25,4 +21,4 @@ test_line1
 
 test_line3
 
-![GLAD 로고]("D:/Dongwhanlee.github.io/assets/images")
+![GLAD 로고](./assets/images)
