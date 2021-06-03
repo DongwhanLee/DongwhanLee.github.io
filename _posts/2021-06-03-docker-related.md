@@ -21,4 +21,4 @@ test_line1
 
 test_line3
 
-![GLAD 로고](./assets/images)
+![GLAD 로고](/assets/images/Logo_GLAD.png)
