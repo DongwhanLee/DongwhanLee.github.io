@@ -14,11 +14,43 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-# 블록처리 테스트
-test_line1
+# __Docker 환경설정__
 
-    test_line2
+### __사용할 도커 이미지 확인__
+    $ docker images
+![Docker images](/assets/images/2021-06-03-docker-related/docker_images.PNG)
 
-test_line3
+### __컨테이너 생성__
+    $ docker run -idt --name "컨테이너명" -v "서버 디렉토리":"컨테이너 디렉토리" -p "서버 포트":"컨테이너 포트" gpus "사용할 GPU 갯수" "사용할 이미지"
+    ex) docker run -idt --name lane_detection -v /mnt/disk0:/mnt/disk0 -p 9230:9230 gpus all 5ffed6c83695
 
-![GLAD 로고](/assets/images/Logo_GLAD.png)
+* [run] : 컨테이너를 생성하고 시작하는 명령어(Create와 Start를 모두 실행)
+* [-d] : 컨테이너를 백그라운드에서 실행하는 옵션
+* [-i, t] : 컨테이너와 상호작용
+* [--name] : 컨테이너명
+* [-v] : 공유할 디렉토리 설정 (서버 폴더:컨테이너 폴더)
+* [-p] : 공유할 포트 설정 (서버 포트:컨테이너 포트)
+* [--gpus] : gpu 사용 개수 or 사용 gpu의 id입력(4 or 0,1,2,3)
+* 5ffed6c83695 : container 제작에 사용될 이미지 ID
+
+### __생성 컨테이너 확인__
+    $ docker ps # 실행 중 컨테이너 목록 출력 
+    $ docker ps -a # 종료된 컨테이너 포함 목록 출력
+
+### __생성 컨테이너 실행__
+    $ docker exec -it "생성 컨테이너명" bash
+    ex) docker exec -it lane_detection bash
+
+### __Docker 환경에서 Jupyter Notebook 실행__
+    $ jupyter notebook --ip="허용할 ip" --port="사용할 컨테이너의 포트" --allow-root
+    ex) jupyter notebook --ip=0.0.0.0 --port=9230 --allow-root
+* [--ip] : 모든 ip 허용 시, 0.0.0.0
+* [--port] : 사용할 컨테이너의 포트
+
+![token](/assets/images/2021-06-03-docker-related/jupyter_notebook_token.PNG)
+* 이미지의 token 값 파악  
+    https://"호스트 ip":"연결할 포트"/"token 값"  
+    ex) https://172.26.199.15:9235/?token=74cc52ec2e60c86d24e85a24578e5d328af7ffbda9ba4ee4
+
+### __실행된 Jupyter Notebook 확인__
+![token](/assets/images/2021-06-03-docker-related/jupyter_notebook.PNG)
