@@ -3,7 +3,7 @@ title:  "Docker 사용하기"
 excerpt: "Container 생성 및 Docker 사용을 알아보자."
 
 categories:
-  - Study & Research
+  - study
 tags:
   - [ubuntu, docker, Ph.D., ME]
 
