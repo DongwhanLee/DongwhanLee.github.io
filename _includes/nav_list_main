@@ -41,14 +41,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "CampusLife" %}
-                        <li><a href="/categories/CampusLife" class="">Campus Life ({{category[1].size}})</a></li>
+                        <li><a href="/categories/campus_life" class="">Campus Life ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DailyLife" %}
-                        <li><a href="/categories/DailyLife" class="">Daily Life ({{category[1].size}})</a></li>
+                        <li><a href="/categories/daily_life" class="">Daily Life ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
