@@ -35,12 +35,16 @@ last_modified_at: 2021-06-03
     $ docker ps # 실행 중 컨테이너 목록 출력 
     $ docker ps -a # 종료된 컨테이너 포함 목록 출력
 
+
+
 ### __`생성 컨테이너 실행`__
     $ docker exec -it "생성 컨테이너명" bash
+
     ex) docker exec -it lane_detection bash
 
 ### __`Docker 환경에서 Jupyter Notebook 실행`__
     $ jupyter notebook --ip="허용할 ip" --port="사용할 컨테이너의 포트" --allow-root
+    
     ex) jupyter notebook --ip=0.0.0.0 --port=9230 --allow-root  
 * [--ip] : 모든 ip 허용 시, 0.0.0.0
 * [--port] : 사용할 컨테이너의 포트
