@@ -14,10 +14,9 @@ date: 2021-06-04
 last_modified_at: 2021-06-04
 ---
 
----
 
 ### __`블로그 개설 및 프로그래밍`__
-
+---
 ["식빵맘" - 평생 공부 블로그 : Today I Learned](https://ansohxxn.github.io/)  
 
 - Github blog 개설 및 디자인 관련  
