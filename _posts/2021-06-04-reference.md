@@ -25,3 +25,10 @@ last_modified_at: 2021-06-04
 - 개인 별점: ⭐⭐⭐⭐⭐
 
 ---
+["Danggai" - Hello, Blog!](https://danggai.github.io/)  
+
+- Github blog 개설 및 디자인 관련  
+- C++ / C# / Unity 등 프로그래밍 관련  
+- 개인 별점: ⭐⭐⭐⭐⭐
+
+---
