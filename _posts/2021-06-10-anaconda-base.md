@@ -20,7 +20,7 @@ last_modified_at: 2021-06-10
 
 우분투에서 아나콘다 설치 및 터미널 실행 시, 자동으로 아나콘다가 실행되며 (base)가 출력된다. 
 
-![Activated (base)](/assets/images/2021-06-10-anaconda-base/base_activated.PNG)
+![activated (base)](/assets/images/2021-06-10-anaconda-base/base_activated.PNG)
 
 아래의 코드를 이용하여, 가상환경을 자동으로 설정 및 해제할 수 있다.
 
