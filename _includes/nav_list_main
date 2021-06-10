@@ -32,6 +32,13 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Anaconda" %}
+                        <li><a href="/categories/anaconda" class="">Anaconda ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Reference" %}
                         <li><a href="/categories/reference" class="">Reference ({{category[1].size}})</a></li>
                     {% endif %}
