@@ -37,6 +37,7 @@ ex) $ conda create -n skeleton python=3.7 -y
 - 리눅스 환경  
 ```$ source activate "가상환경 이름" ```
 
-사용환경에 따른 활성화 코드는 아래의 포스팅에서도 확인 가능하다.    
+사용환경에 따른 활성화 코드는 아래의 포스팅에서도 확인 가능하다.  
+
 [가상환경 활성화가 되지 않을 때](https://dongwhanlee.github.io/anaconda/source-activate/)  
 ---
