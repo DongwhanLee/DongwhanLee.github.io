@@ -19,8 +19,8 @@ last_modified_at: 2021-06-03
 ![Docker images](/assets/images/2021-06-03-docker-related/docker_images.PNG)
 
 ### __`컨테이너 생성`__
-    $ docker run -idt --name "컨테이너명" -v "서버 디렉토리":"컨테이너 디렉토리" -p "서버 포트":"컨테이너 포트" gpus "사용할 GPU 갯수" "사용할 이미지"
-    ex) docker run -idt --name lane_detection -v /mnt/disk0:/mnt/disk0 -p 9230:9230 gpus all 5ffed6c83695
+    $ docker run -idt --name "컨테이너 이름" -v "서버 디렉토리":"컨테이너 디렉토리" -p "서버 포트":"컨테이너 포트" --gpus "사용할 GPU 갯수" "사용할 이미지"
+    ex) docker run -idt --name lane_detection -v /mnt/disk0:/mnt/disk0 -p 9230:9230 --gpus all 5ffed6c83695
 
 * [run] : 컨테이너를 생성하고 시작하는 명령어(Create와 Start를 모두 실행)
 * [-d] : 컨테이너를 백그라운드에서 실행하는 옵션
