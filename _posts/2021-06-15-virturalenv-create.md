@@ -32,11 +32,11 @@ ex) $ conda create -n skeleton python=3.7 -y
 
 생성한 가상환경을 활성화하여, 원하는 패키지의 원하는 버전을 설치할 수 있다. 
 
-- 윈도우 환경
+- 윈도우 환경  
 ```> conda activate "가상환경 이름" ```
-- 리눅스 환경
+- 리눅스 환경  
 ```$ source activate "가상환경 이름" ```
 
-사용환경에 따른 활성화 코드는 아래의 포스팅에서도 확인 가능하다.  
-https://dongwhanlee.github.io/anaconda/source-activate/
+사용환경에 따른 활성화 코드는 아래의 포스팅에서도 확인 가능하다.    
+[가상환경 활성화가 되지 않을 때](https://dongwhanlee.github.io/anaconda/source-activate/)  
 ---
