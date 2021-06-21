@@ -14,11 +14,15 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-### **`사용할 도커 이미지 확인`**
+**`사용할 도커 이미지 확인`**
+-----------------------------
+
     $ docker images
 ![Docker images](/assets/images/2021-06-03-docker-related/docker_images.PNG)
 
-### __`컨테이너 생성`__
+__`컨테이너 생성`__
+-------------------
+
     $ docker run -idt --name "컨테이너 이름" -v "서버 디렉토리":"컨테이너 디렉토리" -p "서버 포트":"컨테이너 포트" --gpus "사용할 GPU 갯수" "사용할 이미지"
     ex) docker run -idt --name lane_detection -v /mnt/disk0:/mnt/disk0 -p 9230:9230 --gpus all 5ffed6c83695
 
