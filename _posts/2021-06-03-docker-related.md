@@ -14,7 +14,8 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-### __`사용할 도커 이미지 확인`__
+### **`사용할 도커 이미지 확인`**
+### `**사용할 도커 이미지 확인**`
     $ docker images
 ![Docker images](/assets/images/2021-06-03-docker-related/docker_images.PNG)
 
