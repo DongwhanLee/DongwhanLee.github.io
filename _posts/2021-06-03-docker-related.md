@@ -14,7 +14,7 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-`사용할 도커 이미지 확인`
+<span style="backgound-color: #CEECF5;"> 사용할 도커 이미지 확인 </span><br/>
 -----------------------
 
     $ docker images
