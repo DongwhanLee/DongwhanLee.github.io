@@ -14,7 +14,7 @@ date: 2021-06-03
 last_modified_at: 2021-06-03
 ---
 
-<span style="backgound-color:#CEECF5">사용할 도커 이미지 확인</span>
+### **<span style="color:#084B8A">사용할 도커 이미지 확인</span>**
 -----------------------
 
     $ docker images
@@ -35,7 +35,7 @@ last_modified_at: 2021-06-03
 * [--gpus] : GPU 사용 개수 (GPU 8개 장착인 경우, 0~7 or 8(=all))
 * 5ffed6c83695 : 컨테이너 제작에 사용될 이미지 ID
 
-### __<span style="backgound-color:#CEECF5">생성 컨테이너 확인</span>__
+### <span style="color:#084B8A">생성 컨테이너 확인</span>
     $ docker ps # 실행 중 컨테이너 목록 출력 
     $ docker ps -a # 종료된 컨테이너 포함 목록 출력
 
