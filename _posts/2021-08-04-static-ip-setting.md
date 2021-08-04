@@ -42,10 +42,13 @@ $ cd /etc/netplan/
 $ ls
 ```
 ![netplan](/assets/images/2021-08-04-static-ip-setting/netplan.png)
+
 위의 경로로 이동하여, XX-installer-config.yaml을 확인한다.
 
 - Editor로 수정 (NANO Editor)
+
 ```$ nano 00-installer-config.yaml ```
+
 ![netplan](/assets/images/2021-08-04-static-ip-setting/config.yaml.png)
 두개의 이더넷 "ens12f3"과 "ens12f0"에 대한 네트워크 설정이 작성되어 있다.
 "ens12f3"은 외부 및 내부와의 통신 목적으로,
@@ -59,6 +62,7 @@ $ ls
 * [nameservers-addresses] : DNS 값
 
 **< ens12f0 >**
+
 크로스 케이블 (서로 다른 두 PC 간의 연결)의 경우, 가급적 게이트웨이 값을 생략한다.
 
 ### <span style="color:#084B8A">변경 설정 적용</span>
@@ -67,5 +71,5 @@ $ systemctl restart network
 $ ifconfig
 ```
 네트워크를 재시작하여 변경사항을 적용하고, ifconfig를 통해 변경된 내용을 확인한다.
-간혹, 에러로 네트워크 재시작이 되지 않을 경우, 시스템을 reboot하여 변경사항을 적용 가능하다. 
+간혹, 에러로 네트워크 재시작이 되지 않을 경우, 시스템 재부팅 ```reboot``` 을 통해 변경사항 적용가능하다. 
 ---
