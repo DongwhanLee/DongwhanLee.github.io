@@ -16,7 +16,7 @@ last_modified_at: 2021-08-04
 
 ---
 
-### <span style="color:#084B8A">UBUNTU 환경에서의 고정 IP 설정</span>
+### <span style="color:#084B8A">1. UBUNTU 환경에서의 고정 IP 설정</span>
 
 우분투 환경에서 고정 IP를 설정해보자. (Ubuntu 18.04.5 기준)
 
@@ -72,5 +72,11 @@ $ ifconfig
 ```
 네트워크를 재시작하여 변경사항을 적용하고, ifconfig를 통해 변경된 내용을 확인한다.
 간혹, 에러로 네트워크 재시작이 되지 않을 경우, 시스템 재부팅 ```$ reboot``` 을 통해 변경사항 적용가능하다.
- 
+
+
+### <span style="color:#084B8A">2. Cent OS 환경에서의 고정 IP 설정</span>
+
+Cent OS 환경에서 고정 IP를 설정해보자. (Cent OS 7 기준)
+
+TBD
 ---
