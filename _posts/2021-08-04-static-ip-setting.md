@@ -3,9 +3,9 @@ title:  "리눅스 기반의 고정 IP 설정하기"
 excerpt: "UBUNTU와 CENTOS에서 고정IP 설정을 해보자."
 
 categories:
-  - Network
+  - Linux
 tags:
-  - [network, static IP, ubuntu, centos]
+  - [linux, static IP, ubuntu, centos]
 
 toc: true
 toc_sticky: true
