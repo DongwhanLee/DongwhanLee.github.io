@@ -77,6 +77,21 @@ $ fdisk -l
 ```
 참고: https://servermon.tistory.com/181
 
+### <span style="color:#084B8A">압축 및 해제</span>
+
+- **tar Utility**
+```
+$ tar -xvzf "tar.gz 파일명"
+ex) $ tar -xvzf drive_360.tar.gz
+
+$ tar -xvzf "tar.gz 파일명" "압축해제하고자 하는 디렉토리"
+ex) $ tar -xvzf drive_360.tar.gz /mnt/disk0/decompressed/
+```
+* [-x] : tar에게 압축 파일로부터 파일 추출 지시
+* [-v] : 압축 과정에서의 파일 목록 출력
+* [-z] : tar에게 파일 압축 지시 (-z 없다면, 압축 파일로 가득한 폴더 생성)
+* [-f] : tar에게 작업하고자 하는 파일명 지정
+
 ### <span style="color:#084B8A">유저 생성 및 삭제</span>
 ### <span style="color:#084B8A">유저 권한 관리</span>
 ### <span style="color:#084B8A">계정 전환</span>
