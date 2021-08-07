@@ -80,6 +80,7 @@ $ fdisk -l
 ### <span style="color:#084B8A">압축 및 해제</span>
 
 - **tar Utility**
+
 ```
 $ tar -xvzf "tar.gz 파일명"
 ex) $ tar -xvzf drive_360.tar.gz
@@ -87,17 +88,20 @@ ex) $ tar -xvzf drive_360.tar.gz
 $ tar -xvzf "tar.gz 파일명" "압축해제하고자 하는 디렉토리"
 ex) $ tar -xvzf drive_360.tar.gz /mnt/disk0/decompressed/
 ```
+
 * [-x] : tar에게 압축 파일로부터 파일 추출 지시
 * [-v] : 압축 과정에서의 파일 목록 출력
 * [-z] : tar에게 파일 압축 지시 (-z 없다면, 압축 파일로 가득한 폴더 생성)
 * [-f] : tar에게 작업하고자 하는 파일명 지정
 
 - **zip, unzip**
+
 ```
 # 압축하기 - zip
 $ zip "원하는 압축파일명.zip" "압축할 파일 or 디렉토리" "압축할 파일 or 디렉토리" ...
 ex) $ zip test.zip ./* # 현재 폴더의 모든 파일을 test.zip으로 압축
 ```
+
 * [-r] : 디렉토리 압축
 * [-j] : 디렉토리 이름 제외하고 압축
 * [-u] : 변경되었거나 새로운 파일만 압축
@@ -107,6 +111,7 @@ ex) $ zip test.zip ./* # 현재 폴더의 모든 파일을 test.zip으로 압축
 $ unzip "원하는 압축파일명.zip"
 ex) $ unzip test.zip # 현재 폴더에 해당 압축파일 해제
 ```
+
 * [-d] : 압축을 해제하고자 하는 경로 지정
 
 
