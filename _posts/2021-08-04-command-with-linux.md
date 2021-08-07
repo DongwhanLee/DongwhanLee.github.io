@@ -22,24 +22,29 @@ last_modified_at: 2021-08-07
 
 ### <span style="color:#084B8A"> 버전 확인</span>
 
-- Ubuntu
+- **Ubuntu**
 ```
 $ lsb_release -a # 시스템 전체 정보를 원할 때
 $ lsb_release -d # 우분투 버전만 원할 때
-
+```
+```
 $ cat /etc/issue # LTS는 Long Term Support 의미
-
+```
+```
 $ cat /etc/os-release # 우분투 16.04 이상 버전에서 작동
-
+```
+```
 $ hostnamectl
 ```
 
-- CentOS
+- **CentOS**
 ```
 $ rpm --query centos-release
-
+```
+```
 $ cat /etc/centos-release
-
+```
+```
 $ cat /etc/system-release
 ```
 
@@ -47,7 +52,6 @@ $ cat /etc/system-release
 
 ```
 # df 명령어 (Disk Free, 디스트 여유 공간 확인)
-
 $ df
 ```
 * [-a], [--all] : 모든 디렉토리 출력
@@ -57,7 +61,6 @@ $ df
 
 ```
 # du 명령어 (Disk Usage, 디스트 사용 공간 확인)
-
 $ du
 ```
 * [-a], [--all] : 디렉토리를 포함한 모든 파일 출력
@@ -70,7 +73,6 @@ $ du
 
 ```
 # 현재 디스크 및 파티션 확인
-
 $ fdisk -l
 ```
 참고: https://servermon.tistory.com/181
