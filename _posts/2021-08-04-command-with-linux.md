@@ -92,6 +92,24 @@ ex) $ tar -xvzf drive_360.tar.gz /mnt/disk0/decompressed/
 * [-z] : tar에게 파일 압축 지시 (-z 없다면, 압축 파일로 가득한 폴더 생성)
 * [-f] : tar에게 작업하고자 하는 파일명 지정
 
+- **zip, unzip**
+```
+# 압축하기 - zip
+$ zip "원하는 압축파일명.zip" "압축할 파일 or 디렉토리" "압축할 파일 or 디렉토리" ...
+ex) $ zip test.zip ./* # 현재 폴더의 모든 파일을 test.zip으로 압축
+```
+* [-r] : 디렉토리 압축
+* [-j] : 디렉토리 이름 제외하고 압축
+* [-u] : 변경되었거나 새로운 파일만 압축
+
+```
+# 압축 해제하기 - unzip
+$ unzip "원하는 압축파일명.zip"
+ex) $ unzip test.zip # 현재 폴더에 해당 압축파일 해제
+```
+* [-d] : 압축을 해제하고자 하는 경로 지정
+
+
 ### <span style="color:#084B8A">유저 생성 및 삭제</span>
 ### <span style="color:#084B8A">유저 권한 관리</span>
 ### <span style="color:#084B8A">계정 전환</span>
