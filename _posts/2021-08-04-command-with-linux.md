@@ -85,6 +85,7 @@ ex) $ ethtool -p ens12f0
 
 $ fdisk -l
 ```
+참고: https://servermon.tistory.com/181
 
 ### <span style="color:#084B8A">유저 생성 및 삭제</span>
 ### <span style="color:#084B8A">유저 권한 관리</span>
