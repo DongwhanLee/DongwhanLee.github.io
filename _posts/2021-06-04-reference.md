@@ -30,3 +30,9 @@ last_modified_at: 2021-06-04
 - 개인 별점: ⭐⭐⭐⭐⭐
 
 ---
+["ZETAWIKI" - 리눅스 쿡북](https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_su)  
+
+- 리눅스 관련 내용 정리  
+- 개인 별점: ⭐⭐⭐⭐⭐
+
+---
